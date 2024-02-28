@@ -1,0 +1,25 @@
+@font-face{
+    src: url(fonts/Kode_Mono/KodeMono-VariableFont_wght.ttf);
+    font-family: MyFont;
+}
+
+body{
+    background-color: lightblue;
+}
+
+h1{
+    color: rgb(235, 64, 52);
+    background-color: black;
+    font-family: MyFont, arial; /* list of font that are ordered for incase browser not support the previous font */
+}
+
+#p1{
+    color: #34eb6b;
+}
+
+.p3{
+    color: pink;
+    font-size: 1em; /* 1em is 100% */
+    font-style: normal;
+    font-weight: bold;
+}
